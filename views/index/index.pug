@@ -1,13 +1,14 @@
 extends layout
 
 block content
-  div(class='top-banner')
-    img(src='images/top_banner.jpeg', class='img-fluid')
-  div(class='available-in')
-  div(class='illustration-projects')
-  div(class='unleash')
-  div(class='images-5900')
-  div(class='selection')
-  div(class='inspired')
-  div(class='premium')
-  div(class='business-personal')
+  include partials/top_banner.pug
+  include partials/available_in.pug
+  include partials/illustration_projects.pug
+  include partials/unleash.pug
+  include partials/commercial.pug
+  include partials/images_5900.pug
+  include partials/selection.pug
+  include partials/inspired.pug
+  include partials/images_12500.pug
+  include partials/premium.pug
+  include partials/business_personal.pug

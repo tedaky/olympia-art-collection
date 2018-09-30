@@ -24,9 +24,254 @@ body {
 .top-banner img {
   width: 100%; }
 
+.available-in {
+  background-color: #333;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  .available-in h2, .available-in p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .available-in h2, .available-in p, .available-in a {
+    color: #fff; }
+  .available-in h2 {
+    font-size: 36px; }
+  .available-in p {
+    font-size: 24px; }
+  .available-in a {
+    box-shadow: inset 2px 2px 6px -2px #fff, inset -2px -2px 6px -2px #000, 2px 2px 8px -1px #000;
+    background-color: #35cc00;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 700; }
+    @media (min-width: 768px) {
+      .available-in a {
+        padding: 10px 40px; } }
+
+.illustration-projects {
+  padding-bottom: 20px;
+  padding-top: 40px; }
+  .illustration-projects > .row {
+    padding-top: 20px; }
+    @media (min-width: 992px) {
+      .illustration-projects > .row {
+        align-items: center; } }
+  @media (min-width: 768px) {
+    .illustration-projects {
+      padding-bottom: 20px;
+      padding-top: 60px; } }
+  .illustration-projects h2, .illustration-projects p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .illustration-projects h2 {
+    font-size: 36px; }
+  .illustration-projects p, .illustration-projects b {
+    font-size: 24px; }
+  .illustration-projects ul {
+    padding-top: 20px;
+    margin-bottom: 0; }
+  .illustration-projects li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px; }
+
+.unleash {
+  background-color: #0a3f6d; }
+  .unleash h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 36px;
+    color: #fff; }
+
+.commercial {
+  background-color: #eaf0f2;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  @media (min-width: 768px) {
+    .commercial {
+      padding-bottom: 60px;
+      padding-top: 60px; } }
+  @media (min-width: 768px) {
+    .commercial .row {
+      align-items: center; } }
+  .commercial h2, .commercial p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .commercial h2 {
+    font-size: 36px; }
+  .commercial p, .commercial b {
+    font-size: 24px; }
+  .commercial img {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+
+.images-5900 {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .images-5900 {
+      padding-bottom: 60px;
+      padding-top: 80px; } }
+  .images-5900 img {
+    margin-left: -15px; }
+  .images-5900 h2, .images-5900 p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .images-5900 h2 {
+    font-size: 36px; }
+    @media (min-width: 768px) {
+      .images-5900 h2 {
+        padding-top: 0; } }
+  .images-5900 ul {
+    list-style-type: none;
+    padding-top: 20px;
+    margin-bottom: 0; }
+  .images-5900 p, .images-5900 li {
+    font-size: 24px; }
+  .images-5900 li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 700; }
+    .images-5900 li::before {
+      background-color: #33348e;
+      position: absolute;
+      content: '';
+      height: 14px;
+      width: 14px;
+      left: -40px;
+      top: 9px; }
+
+.selection {
+  background-color: #efefef;
+  padding-bottom: 20px;
+  padding-top: 40px; }
+  .selection h2, .selection p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .selection h2 {
+    font-size: 36px; }
+  .selection p {
+    font-size: 24px; }
+
+.inspired {
+  background-color: #8f0f05; }
+  .inspired h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 36px;
+    color: #fff; }
+
+.images-12500 {
+  padding-bottom: 30px;
+  padding-top: 40px; }
+  @media (min-width: 768px) {
+    .images-12500 {
+      padding-bottom: 60px;
+      padding-top: 80px; } }
+  .images-12500 img {
+    margin-left: -15px; }
+  .images-12500 h2, .images-12500 p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .images-12500 h2 {
+    font-size: 36px; }
+    @media (min-width: 768px) {
+      .images-12500 h2 {
+        padding-top: 0; } }
+  .images-12500 ul {
+    list-style-type: none;
+    padding-top: 20px;
+    margin-bottom: 0; }
+  .images-12500 p, .images-12500 li {
+    font-size: 24px; }
+  .images-12500 li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 700; }
+    .images-12500 li::before {
+      background-color: #970c02;
+      position: absolute;
+      content: '';
+      height: 14px;
+      width: 14px;
+      left: -40px;
+      top: 9px; }
+
+.premium {
+  background-color: #efefef;
+  padding-bottom: 40px;
+  padding-top: 40px; }
+  @media (min-width: 768px) {
+    .premium {
+      padding-top: 70px; } }
+  .premium h2, .premium p {
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .premium h2 {
+    padding-bottom: 20px;
+    font-size: 36px; }
+  .premium p {
+    padding-bottom: 30px;
+    font-size: 24px; }
+
+.business-personal {
+  background-color: #333;
+  padding-bottom: 20px;
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .business-personal {
+      padding-bottom: 60px;
+      padding-top: 50px; } }
+  .business-personal h2, .business-personal p {
+    margin-bottom: 0;
+    margin-top: 0; }
+  .business-personal h2, .business-personal p, .business-personal a {
+    color: #fff; }
+  .business-personal h2 {
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-size: 36px; }
+  .business-personal .col-xl-5 {
+    padding-bottom: 40px;
+    padding-top: 20px; }
+  .business-personal p {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 24px; }
+  .business-personal a {
+    box-shadow: inset 2px 2px 6px -2px #fff, inset -2px -2px 6px -2px #000, 2px 2px 8px -1px #000;
+    background-color: #35cc00;
+    display: inline-block;
+    padding: 15px;
+    font-weight: 700; }
+
 footer p {
-  font-size: 24px;
-  margin-bottom: 115px;
-  margin-top: 115px; }
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+@media (min-width: 768px) {
+  footer p {
+    font-size: 24px;
+    margin-bottom: 100px;
+    margin-top: 100px; } }
 
 /*# sourceMappingURL=styles.css.map */
