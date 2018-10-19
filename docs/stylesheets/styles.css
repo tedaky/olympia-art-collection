@@ -79,6 +79,23 @@ body {
     margin-top: 10px;
     font-size: 16px; }
 
+.about {
+  padding-bottom: 20px;
+  padding-top: 40px; }
+  @media (min-width: 768px) {
+    .about {
+      padding-bottom: 20px;
+      padding-top: 60px; } }
+  .about h2, .about p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .about h2 {
+    font-size: 36px; }
+  .about p {
+    font-size: 24px; }
+
 .unleash {
   background-color: #0a3f6d; }
   .unleash h2 {
@@ -244,7 +261,7 @@ body {
   .business-personal h2, .business-personal p {
     margin-bottom: 0;
     margin-top: 0; }
-  .business-personal h2, .business-personal p, .business-personal a {
+  .business-personal h2, .business-personal p, .business-personal .buy-now-btn {
     color: #fff; }
   .business-personal h2 {
     padding-bottom: 40px;
@@ -257,7 +274,7 @@ body {
     padding-top: 40px;
     padding-bottom: 10px;
     font-size: 24px; }
-  .business-personal a {
+  .business-personal .buy-now-btn {
     box-shadow: inset 2px 2px 6px -2px #fff, inset -2px -2px 6px -2px #000, 2px 2px 8px -1px #000;
     background-color: #35cc00;
     display: inline-block;
